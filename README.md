@@ -11,3 +11,9 @@ KLAE Linux (Kali Linux Arch Edition) é uma distro futurista e personalizável, 
 # Ingles
 
 KLAE Linux (Kali Linux Arch Edition) is a futuristic and customizable distro, combining the lightness and performance of Arch Linux with the pentesting tools of Kali. Ideal for ethical hackers, security enthusiasts, and advanced users.
+
+# x86_64
+
+<div align="center">
+<img src="https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blob/main/x86_64.png" width="700px" />
+</div>
