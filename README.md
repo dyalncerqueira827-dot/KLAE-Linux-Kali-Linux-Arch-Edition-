@@ -1,9 +1,3 @@
-
-
-<div align="center">
-<img src="https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blob/main/Wallpaper%20KLAE.png" width="700px" />
-</div>
-
 <div align="center">
 <img src="https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blob/main/wallpaper%202026.png" width="700px" />
 </div>
