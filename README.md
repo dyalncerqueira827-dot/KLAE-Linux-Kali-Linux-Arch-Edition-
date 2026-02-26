@@ -15,3 +15,7 @@ KLAE Linux (Kali Linux Arch Edition) is a futuristic and customizable distro, co
 # wallpapers
 
 https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blob/main/Wallpapers.md
+
+# ISO dowload
+
+https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blob/main/Install%20The%20Installation%20ISO.md
