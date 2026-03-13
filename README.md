@@ -22,3 +22,6 @@ https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blo
 https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blob/main/Wallpaper6.png
 https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blob/main/Wallpaper7.png
 
+## Como instalar o KLAE
+
+https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-/blob/main/Install%20The%20Installation.md
