@@ -23,7 +23,7 @@ cd KLAE-Linux-Kali-Linux-Arch-Edition-
 
 ## 3️⃣ Dê permissão para os scripts
 ```bash
-chmod +x *.sh
+chmod +x install.sh
 ```
 
 ## 4️⃣ Execute o instalador
