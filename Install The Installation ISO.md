@@ -11,19 +11,19 @@ git clone https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Ed
 ## 2️⃣ Entre na pasta do projeto
 
 ```bash
-cd KLAE-Linux
+cd KLAE-install
 ```
 
 ## 3️⃣ Dê permissão de execução para o script
 
 ```bash
-chmod +x klae-install.sh
+chmod +x install.sh
 ```
 
 ## 4️⃣ Execute o instalador
 
 ```bash
-sudo ./klae-install.sh
+sudo ./install.sh
 ```
 
 O instalador irá automaticamente:
