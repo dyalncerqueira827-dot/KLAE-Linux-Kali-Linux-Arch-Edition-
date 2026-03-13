@@ -1,0 +1,66 @@
+#!/bin/bash
+
+LOGO_SOURCE="assets/logo.png"
+LOGO_DEST="/usr/share/pixmaps/logo.png"
+
+OS_RELEASE="/etc/os-release"
+
+spinner() {
+    local pid=$!
+    local spin='-\|/'
+    local i=0
+    while kill -0 $pid 2>/dev/null; do
+        i=$(( (i+1) %4 ))
+        printf "\r[%c] Instalando branding do KLAE..." "${spin:$i:1}"
+        sleep .1
+    done
+    printf "\rConcluído!                                \n"
+}
+
+install_klae() {
+
+sudo cp "$LOGO_SOURCE" "$LOGO_DEST"
+
+sudo bash -c "cat > $OS_RELEASE" <<EOF
+NAME="KLAE Linux"
+PRETTY_NAME="KLAE Linux Kali Linux Arch Edition"
+ID=klae
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-"
+DOCUMENTATION_URL="https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-"
+SUPPORT_URL="https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-"
+BUG_REPORT_URL="https://github.com/dyalncerqueira827-dot/KLAE-Linux-Kali-Linux-Arch-Edition-"
+LOGO=logo
+EOF
+
+sleep 2
+}
+
+# detectar se dialog existe
+if command -v dialog >/dev/null 2>&1; then
+
+(
+echo 20
+echo "# Copiando logo..."
+
+sleep 1
+
+echo 60
+echo "# Criando os-release..."
+
+install_klae
+
+echo 100
+echo "# Branding do KLAE instalado!"
+
+) | dialog --title "KLAE Linux Installer" --gauge "Configurando sistema..." 10 60 0
+
+else
+
+install_klae & spinner
+
+fi
+
+bash 'Wallpaper.sh'
